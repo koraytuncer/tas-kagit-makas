@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taş-Kağıt-Makas</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="icerik">
+
+            <div class="row">
+                 <!--------------------- Sol İçerik------------------------------->
+
+                <div class="solicerik col-md-5 d-flex">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h6 class="card-subtitle mb-4 text-muted">Oyuncu</h6>
+                          <img id="oyuncuResim" src="./img/makas.png" height="150px">
+                        </div>
+                        <div class="row">
+                            <div class="col inputlar">
+        
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="tas" value="tas">
+                                    <label class="form-check-label" for="inlineRadio1">Taş</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="kagit" value="kagit">
+                                    <label class="form-check-label" for="inlineRadio2">Kağıt</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="makas" value="makas">
+                                    <label class="form-check-label" for="inlineRadio3">Makas</label>
+                                  </div>
+        
+                            </div>
+                        </div>
+                      </div>
+                      
+                </div>
+                 <!--------------------- Orta Resim İçerik------------------------------->
+
+                <div class="ortaicerik col-md-2">
+                    <img src="./img/vs.png" height="200px" alt="vs">
+                </div>
+                  <!--------------------- Sağ İçerik------------------------------->
+                  <div class="sagicerik col-md-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h6 class="card-subtitle mb-4 text-muted">Bilgisayar</h6>
+                            <img id="bilgisayarResim" src="./img/soru.png" height="150px">
+                        </div>
+                      </div>
+                  </div>    
+            </div>
+            <div class="butonlar">
+                <div class="row">
+                    <div id="oyuncuSkor" class="col-md-5 text-center mt-3">
+
+                    Skor : 0
+
+                    </div>
+                    <div class="col-md-2 text-center mt-4">
+                        <button class="btn btn-success baslat">Başlat</button>
+                        <button class="btn btn-danger reset">Sıfırla</button>
+                    </div>
+                    <div id="bilgisayarSkor" class="col-md-5 text-center mt-3">
+
+                        Skor : 0
+
+                    </div>
+                </div>
+            </div>
+            <div id="alertAlani" class="row text-center mt-5 d-flex justify-content-center">
+
+                
+            </div>
+        </div>
+    
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
+
