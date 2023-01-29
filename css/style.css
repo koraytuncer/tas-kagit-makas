@@ -1,23 +1,27 @@
-.icerik{
-    position: relative;
-    top: 150px;
+.icerik {
+  position: relative;
+  top: 150px;
 }
-.solicerik{
-    justify-content: center;
-    text-align: center;
+.solicerik {
+  justify-content: center;
+  text-align: center;
 }
-.sagicerik{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.sagicerik {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-.ortaicerik{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.ortaicerik {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-.inputlar{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.inputlar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.1);
 }
